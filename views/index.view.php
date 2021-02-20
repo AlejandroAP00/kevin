@@ -29,6 +29,28 @@
 
 		<?php require("views/navbar.view.php"); ?>
 
+
+		<section class="kevin">
+			<div class="container">
+				<div class="row">
+					
+					<div class="abuelo">
+						<div class="padre">
+							<div class="hijo">
+								<div class="nieto">
+									<div class="bisnieto">
+										
+									</div>
+								</div>
+							</div>
+							
+							<div class="hermano"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>			
+
 		<?php require("views/footer.view.php"); ?>	
 		
 		<!-- jQuery first, then Tether, then Bootstrap JS. -->
