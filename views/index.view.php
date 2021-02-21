@@ -34,23 +34,24 @@
 			<div class="container">
 				<div class="row">
 					
-					<div class="abuelo">
-						<div class="padre">
-							<div class="hijo">
-								<div class="nieto">
-									<div class="bisnieto">
-										
-									</div>
-								</div>
-							</div>
-							
-							<div class="hermano"></div>
-						</div>
+					<div class="abuelo ">
+						
 					</div>
+
 				</div>
 			</div>
-		</section>			
+		</section>	
 
+		<div class="abuelo dos">
+			<div class="bolitas 1"></div>
+			<div class="bolita2"></div>
+			<div class="bolita3"></div>
+			<h1>laminex</h1>
+		</div>		
+
+		<figure>
+			<img src="" alt="">
+		</figure>
 		<?php require("views/footer.view.php"); ?>	
 		
 		<!-- jQuery first, then Tether, then Bootstrap JS. -->

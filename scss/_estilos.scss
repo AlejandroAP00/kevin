@@ -26,12 +26,121 @@ a:focus {
 
 
 
+
+
 section.kevin {
 	margin-top: 20rem;
-	
-}
-//Fondos partículares
 
+	.abuelo {
+		height: 10rem;
+		width: 10rem;
+		background-color: red;
+		.padre{
+			height: 9rem;
+			width: 9rem;
+			background-color: blue;
+			.hijo{
+				height: 8rem;
+				width: 8rem;
+				background-color: purple;
+				.nieto{
+					height: 7rem;
+					width: 7rem;
+					background-color: orange;
+					.bisnieto {
+						height: 6rem;
+						width: 6rem;
+						background-color: yellow;
+
+					}
+				}
+				// ~ es Hermano
+				// ~div {
+				// 		height: 20rem;
+				// 		width: 20rem;
+				// 		background-color: #123412;
+				// }
+
+				// al poner el mouse 
+				// &:hover {
+				// 	background-color: pink;
+				// }
+
+
+				// Clase conjunta 
+				 &.uno {
+				 	background-color: pink;
+				 }
+
+				 &.dos {
+				 	background-color: black;
+				 }
+
+
+
+
+			}
+
+		}
+
+
+		&:after{
+			content: "";
+			width: 4rem;
+			height: 4rem;
+			background-color: gray;
+			position: absolute;
+			z-index: 1;
+		}	
+
+		
+
+	}
+}
+
+.abuelo {
+	position: relative;
+	.bolitas{
+		position: absolute;
+		left: -4rem;
+		top: 10px;
+		border-radius: 50%;
+		width: 10px;
+		height: 10px;
+		background-color: #FC8813;
+
+		&:after{
+			top: -2rem;
+		}
+
+		&:before{
+			bottom: -2rem;
+		}
+
+		&:before,&:after{
+			content: "";
+			width: 10px;
+			height: 10px;
+			background-color: #FC8813;
+			position: absolute;
+			border-radius: 50%;
+		}
+	}
+
+
+
+	&.dos {
+		margin-left: 10rem;
+	}
+}
+
+
+
+
+
+
+
+//Fondos partículares
 
 
 //Estilos particulares
