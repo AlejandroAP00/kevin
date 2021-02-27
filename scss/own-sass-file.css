@@ -10,6 +10,9 @@
 .name-font {
   font-family: name-font; }
 
+@font-face {
+  font-family: arial;
+  src: url("../fonts/own-fonts/Poppins-Bold.ttf"); }
 .bgr-white {
   background-color: #fff; }
 
@@ -32,6 +35,64 @@ a:hover {
 
 a:focus {
   outline: none; }
+
+section.kevin {
+  margin-top: 20rem; }
+  section.kevin .abuelo {
+    height: 10rem;
+    width: 10rem;
+    background-color: red; }
+    section.kevin .abuelo .padre {
+      height: 9rem;
+      width: 9rem;
+      background-color: blue; }
+      section.kevin .abuelo .padre .hijo {
+        height: 8rem;
+        width: 8rem;
+        background-color: purple; }
+        section.kevin .abuelo .padre .hijo .nieto {
+          height: 7rem;
+          width: 7rem;
+          background-color: orange; }
+          section.kevin .abuelo .padre .hijo .nieto .bisnieto {
+            height: 6rem;
+            width: 6rem;
+            background-color: yellow; }
+        section.kevin .abuelo .padre .hijo.uno {
+          background-color: pink; }
+        section.kevin .abuelo .padre .hijo.dos {
+          background-color: black; }
+    section.kevin .abuelo:after {
+      content: "";
+      width: 4rem;
+      height: 4rem;
+      background-color: gray;
+      position: absolute;
+      z-index: 1; }
+
+.abuelo {
+  position: relative; }
+  .abuelo .bolitas {
+    position: absolute;
+    left: -4rem;
+    top: 10px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #FC8813; }
+    .abuelo .bolitas:after {
+      top: -2rem; }
+    .abuelo .bolitas:before {
+      bottom: -2rem; }
+    .abuelo .bolitas:before, .abuelo .bolitas:after {
+      content: "";
+      width: 10px;
+      height: 10px;
+      background-color: #FC8813;
+      position: absolute;
+      border-radius: 50%; }
+  .abuelo.dos {
+    margin-left: 10rem; }
 
 @media screen and (min-width: 1024px) {
   body, html {
